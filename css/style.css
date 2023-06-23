@@ -68,11 +68,17 @@
 
    
   }
-  *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
+  *::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 2px dotted var(--green-color);
+  outline-offset: 3px;
+}
   a{
     text-decoration: none;
   }
