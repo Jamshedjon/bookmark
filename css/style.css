@@ -55,7 +55,6 @@
   src: url("../fonts/rubik-v26-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-<<<<<<< HEAD
 html {
   height: 100%;
   font-size: 62.5%;
@@ -87,46 +86,6 @@ ol {
   padding: 0 165px;
 }
 .header {
-=======
-  html{
-    height: 100%;
-    font-size: 62.5%;
-  }
-  body{
-    font-family: 'Rubik';
-    font-size: 1.8rem;
-    line-height: 2.8rem;
-    font-weight: 400;
-    scroll-behavior: smooth;
-
-   
-  }
-  *::after,
-*::before,
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-*:focus {
-  outline: 2px dotted var(--green-color);
-  outline-offset: 3px;
-}
-  a{
-    text-decoration: none;
-  }
-  ul,ol{
-    list-style: none;
-  }
-  .container{
-    width: 100%;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 165px ;
-  }
-  .header {
->>>>>>> 02ea9ea679c4c99bc9631501d075e37b79ba3523
 }
 .container {
 }
@@ -678,7 +637,6 @@ input {
 }
 .footer__icons-tweetter {
 }
-<<<<<<< HEAD
 /* MEDIA */
 @media screen and (max-width: 1181px) {
   .features__btn-wrapper {
@@ -698,5 +656,3 @@ input {
     display: block;
   }
 }
-=======
->>>>>>> 02ea9ea679c4c99bc9631501d075e37b79ba3523
